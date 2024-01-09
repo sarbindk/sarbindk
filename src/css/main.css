@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION */
+
+
+/* MOBILE MENU & ANIMATION */
+
+
+/* KEYFRAME ANIMATIONS */
+
+@-webkit-keyframes gradbar {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes gradbar {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradbar {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Media Queries */
+
+/* Mobile Devices - Phones/Tablets */
+
+.home1 {
+  height: 100vh;
+  width: 100%;
+  /* background: linear-gradient(
+      136deg,
+      rgb(68, 132, 206),
+      rgb(26, 215, 192),
+      rgb(255, 155, 17),
+      rgb(155, 89, 182)
+    )
+    0% 0% / 600% 600%; */
+
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+  animation: BackgroundAnimation 40s ease infinite alternate;
+}
+
+@keyframes BackgroundAnimation {
+  0% {
+    background-position: 0% 10%;
+  }
+  50% {
+    background-position: 100% 90%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+.home1 {
+  text-align: center;
+  color: #121212;
+}
+
+.home1 .wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.home1 .wrapper .container {
+  z-index: 10;
+  /* pointer-events: none; */
+}
+
+.home1 .name {
+  font-size: 6rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  background-image: linear-gradient(to right, #30cfd0 0%, lawngreen 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+#particles {
+  width: 100%;
+  height: 100vh;
+}
+
+.particles-js-canvas-el {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  z-index: 0;
+}
+
+.container.social {
+  margin-top: 6vh;
+}
+
+.container.social a {
+  text-decoration: none;
+}
+
+.social .fab {
+  font-size: 2.5em;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: all 0.8s;
+  margin: 4px;
+  color: #121212;
+  pointer-events: all;
+  transition: all 0.3s;
+  background-image:linear-gradient(147deg, #000000 0%, #55efc4 74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* background-color: #000000; */
+/* background-image: linear-gradient(147deg, #000000 0%, #434343 74%); */
+}
+
+.social .fab:hover {
+  color: white;
+}
+
+.skills .container {
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 3em;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 720px) {
+  /* MOBILE NAVIGATION */
+
+
+
+  /* SECTIONS */
+
+  .home1 .name {
+    font-size: 3rem;
+  }
+ 
+
+}
+
+body > main > section.contact > p {
+  width: 90%;
+  margin: auto;
+}
+
+section {
+  overflow: hidden;
+}
+
+#particles > div > div > p {
+  font-size: 1.3em;
+  color: #afafaf;
+}
+
+#particles > div > a {
+  font-size: 3em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: black;
+  animation: down-arrow 2s ease-in-out infinite alternate;
+}
+
+@keyframes down-arrow {
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 1em;
+  }
+}
+
+.scrollbar{
+  height: 0.25rem;
+  background: linear-gradient(to right, #30cfd0 0%, lawngreen 100%);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
