@@ -1757,6 +1757,7 @@ i {
   padding: 0 15px;
 }
 .testimonial .description {
+  font-style: normal!important;
   font-size: 20px;
   font-weight: 400;
   color: #848484;
