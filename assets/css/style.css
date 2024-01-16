@@ -1542,9 +1542,9 @@ i {
   text-decoration: none;
   font-family: 'Oswald', sans-serif;
   cursor: text;
-  color: #2c3e50;
+  color: #1bd1a1;
   text-align: center;
-  border-bottom: 3px solid #2c3e50;
+  border-bottom: 3px solid #1bd1a1;
   font-weight: bolder;
 }
 .contactbox {
@@ -1850,7 +1850,7 @@ i {
   text-align: center;
   pointer-events: none;
   position: relative;
-  color: #222f3e;
+  color: #000;
   margin-bottom: 50px;
 }
 .contact .row .col-md-6 {
