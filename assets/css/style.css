@@ -156,7 +156,7 @@ header p {
   width: 16px;
   height: 10px;
   position: absolute;
-  background: #00c4f3;
+  background: #1bd1a1;
   z-index: 5;
   left: 0;
   right: 0;
@@ -252,7 +252,7 @@ header p {
 }
 
 .time {
-  background: #00c4f3;
+  background: #1bd1a1;
   display: inline-block;
   padding: 8px;
 }
@@ -779,9 +779,9 @@ i {
   text-decoration: none;
   font-family: 'Oswald', sans-serif;
   cursor: text;
-  color: #2c3e50;
+  color: #1bd1a1;
   text-align: center;
-  border-bottom: 3px solid #2c3e50;
+  border-bottom: 3px solid #1bd1a1;
   font-weight: bolder;
 }
 
@@ -799,9 +799,9 @@ i {
   text-decoration: none;
   font-family: 'Oswald', sans-serif;
   cursor: text;
-  color: #2c3e50;
+  color: #1bd1a1;
   text-align: center;
-  border-bottom: 3px solid #2c3e50;
+  border-bottom: 3px solid #1bd1a1;
   font-weight: bolder;
 }
 .certificaterow {
@@ -1006,9 +1006,9 @@ i {
   text-decoration: none;
   font-family: 'Oswald', sans-serif;
   cursor: text;
-  color: #2c3e50;
+  color: #1bd1a1;
   text-align: center;
-  border-bottom: 3px solid #2c3e50;
+  border-bottom: 3px solid #1bd1a1;
   font-weight: bolder;
 }
 
@@ -1026,9 +1026,9 @@ i {
   text-decoration: none;
   font-family: 'Oswald', sans-serif;
   cursor: text;
-  color: #2c3e50;
+  color: #1bd1a1;
   text-align: center;
-  border-bottom: 3px solid #2c3e50;
+  border-bottom: 3px solid #1bd1a1;
   font-weight: bolder;
 }
 .skill .script .col-6 {
@@ -1199,9 +1199,9 @@ i {
   text-decoration: none;
   font-family: 'Oswald', sans-serif;
   cursor: text;
-  color: #2c3e50;
+  color: #1bd1a1;
   text-align: center;
-  border-bottom: 3px solid #2c3e50;
+  border-bottom: 3px solid #1bd1a1;
   font-weight: bolder;
 }
 .works .head .col-12 {
@@ -1218,6 +1218,7 @@ i {
   text-align: center;
   pointer-events: none;
   position: relative;
+  color:#1bd1a1!important;
 }
 
 .works .container .myimg .col-lg-3 {
@@ -1564,7 +1565,7 @@ i {
   border: none;
   outline: none;
   padding: 10px;
-  color: #2c3e50;
+  color: #1bd1a14a;
 }
 .contact input {
   height: 40px;
@@ -1608,7 +1609,7 @@ i {
   color: white;
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  background: rgb(2, 21, 78);
+  background: #1bd1a1;
   height: 40px;
   /* padding: 5px; */
   border-radius: 25px;
@@ -1734,7 +1735,7 @@ i {
 }
 
 .testimonial-bg {
-  border: 10px solid #66e1e3;
+  border: 10px solid #1bd1a1;
   padding: 80px 70px;
   text-align: center;
   position: relative;
@@ -1748,7 +1749,7 @@ i {
   background: #fff;
   text-align: center;
   font-size: 50px;
-  color: #3c414c;
+  color: #1bd1a1;
   position: absolute;
   top: -40px;
   left: 2%;
