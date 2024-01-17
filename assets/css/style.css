@@ -402,7 +402,7 @@ i {
   height: 100vh;
   width: 100%;
   z-index: 105;
-  background-color: black;
+  background-color: #1bd1a1;
   display: flex;
   justify-content: center;
   align-items: center;
