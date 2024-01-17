@@ -1478,7 +1478,7 @@ i {
 }
 
 .card-back {
-  background-color: #230d31;
+  background-color: #1bd1a1;
   transform: rotateY(180deg);
   color: white;
   display: flex;
