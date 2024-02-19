@@ -177,14 +177,16 @@ var btnvisible = false;
 var navvisible = true;
 var typed = new Typed(".typing", {
   strings: [
-    "A Motion developer!",
     "An Artist!",
+    "A Student.",
     "A Geek.",
     "A Programer.",
     "An Enthusiast!",
-    "A Frontend Developer!",
+    "A Web-Developer!",
+    "An Angular Developer.",
+    "An Illustrator!",
     "A React Developer.",
-
+    "A Full Stack Developer",
   ],
   smartBackspace: true,
   backSpeed: 80,
@@ -330,22 +332,25 @@ function closemodal() {
 $(document).ready(function () {
   var events = [
     {
-      date: "October 2023 - Present",
-      content: "Annalect India - Senior Motion Developer",
+      date: "3/05/2021-3/06/2021",
+      content: "Padhhigh - Content Writer",
     },
     {
-      date: "September 2020 - October 2023",
-      content: "Treaure Creatives - Senior Frontend Developer With Motion Developer",
+      date: "17/05/2021-16/06/2021",
+      content: "Engineer Diaries - Angular Developer",
     },
     {
-      date: "April 2019 - June 2020",
-      content: "CLT Technologies And Edu-Publishers PVT LTD - Frontend Designer And Developer",
+      date: "29/05/2020 - 28/06/2021",
+      content: "Srchout - Full Stack Developer",
     },
     {
-      date: "February 2017 - February 2019",
-      content: "Gurudeva Media And Animation Company PVT LTD - Web Designer And Developer",
+      date: "17/06/2021 - 16/08/2021",
+      content: "Upjao - Full Stack Developer",
     },
-   
+    {
+      date: "18/08/2021 - PRESENT",
+      content: "AGPayTech - Junior Angular Developer",
+    },
   ];
 
   $("#my-timeline").roadmap(events, {
@@ -360,20 +365,20 @@ $(document).ready(function () {
 });
 
 var front = document.getElementById("front");
-// var api = document.getElementById("api");
+var api = document.getElementById("api");
 var full = document.getElementById("full");
 // var python = document.getElementById("python");
 // var art = document.getElementById("art");
 // var pypro = document.getElementById("pythonprojects");
 var fupro = document.getElementById("fullprojects");
-// var apipro = document.getElementById("apiproject");
+var apipro = document.getElementById("apiproject");
 var fropro = document.getElementById("frontprojects");
 // var artpro = document.getElementById("arts");
 
 front.addEventListener("click", () => {
   console.log("clicked");
   front.classList.remove("worksactive");
-  // api.classList.remove("worksactive");
+  api.classList.remove("worksactive");
   full.classList.remove("worksactive");
   // python.classList.remove("worksactive");
   // art.classList.remove("worksactive");
@@ -382,7 +387,7 @@ front.addEventListener("click", () => {
   // artpro.style.display = "none";
   fupro.style.display = "none";
   // pypro.style.display = "none";
-  // apipro.style.display = "none";
+  apipro.style.display = "none";
   const frtl = new TimelineLite();
   frtl.fromTo(
     `.frontproj`,
@@ -399,39 +404,39 @@ front.addEventListener("click", () => {
     }
   );
 });
-// api.addEventListener("click", () => {
-//   console.log("clicked");
-//   front.classList.remove("worksactive");
-//   api.classList.remove("worksactive");
-//   full.classList.remove("worksactive");
-//   python.classList.remove("worksactive");
-//   art.classList.remove("worksactive");
-//   api.classList.add("worksactive");
-//   fropro.style.display = "none";
-//   artpro.style.display = "none";
-//   fupro.style.display = "none";
-//   pypro.style.display = "none";
-//   apipro.style.display = "none";
-//   const jatl = new TimelineLite();
-//   jatl.fromTo(
-//     `.apisprojectsdiv`,
-//     0.5,
-//     {
-//       display: "none",
-//       opacity: 0,
-//       x: -250,
-//     },
-//     {
-//       opacity: 1,
-//       x: 0,
-//       display: "block",
-//     }
-//   );
-// });
+api.addEventListener("click", () => {
+  console.log("clicked");
+  front.classList.remove("worksactive");
+  api.classList.remove("worksactive");
+  full.classList.remove("worksactive");
+  // python.classList.remove("worksactive");
+  // art.classList.remove("worksactive");
+  api.classList.add("worksactive");
+  fropro.style.display = "none";
+  // artpro.style.display = "none";
+  fupro.style.display = "none";
+  // pypro.style.display = "none";
+  apipro.style.display = "none";
+  const jatl = new TimelineLite();
+  jatl.fromTo(
+    `.apisprojectsdiv`,
+    0.5,
+    {
+      display: "none",
+      opacity: 0,
+      x: -250,
+    },
+    {
+      opacity: 1,
+      x: 0,
+      display: "block",
+    }
+  );
+});
 full.addEventListener("click", () => {
   console.log("clicked");
   front.classList.remove("worksactive");
-  // api.classList.remove("worksactive");
+  api.classList.remove("worksactive");
   full.classList.remove("worksactive");
   // python.classList.remove("worksactive");
   // art.classList.remove("worksactive");
@@ -440,7 +445,7 @@ full.addEventListener("click", () => {
   // artpro.style.display = "none";
   fupro.style.display = "none";
   // pypro.style.display = "none";
-  // apipro.style.display = "none";
+  apipro.style.display = "none";
   const ntl = new TimelineLite();
   ntl.fromTo(
     `.fullstack`,
