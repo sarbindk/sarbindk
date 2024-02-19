@@ -1465,6 +1465,15 @@ i {
 .card-front18 {
   background-image: url(../image/eighteenth.jpg);
 }
+.card-front19 {
+  background-image: url(../image/ninteenth.jpg);
+}
+.card-front20 {
+  background-image: url(../image/twenty.jpg);
+}
+.card-front21 {
+  background-image: url(../image/twenty-one.jpg);
+}
 .component {
   position: relative;
   height: 90%;
